@@ -62,9 +62,9 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "萱萱",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oLiRz6P7plzbYzFzVZNt3wxeNHjQ",
+      id: "oLiRz6LKet1KIiKmyogWzdeEmYnM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "xqs3e6LClP0khCDgIgowOTaTIiiXImP4y5n_8txboGc",
+      useTemplateId: "t7nxQWAvRwWeTOiZ_3c0JYJiOvttJFJi8Cy392MvRCo",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -79,23 +79,19 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "生日", "name": "萱萱", "year": "2000", "date": "09-25"},
-        {"type": "节日", "name": "初次相识", "year": "2022", "date": "09-07"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "小赵", "year": "2001", "date": "01-02"},
-        {"type": "节日", "name": "初次相遇", "year": "2022", "date": "09-11"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 初次相识的日子
         {"keyword": "meet_day", date: "2022-09-07"},
-        // 初次相遇的日子
-        {"keyword": "marry_day", date: "2022-09-11"},
       ]
     },
     {
       name: "萱萱",
-      id: "oLiRz6P7plzbYzFzVZNt3wxeNHjQ",
-      useTemplateId: "xqs3e6LClP0khCDgIgowOTaTIiiXImP4y5n_8txboGc",
+      id: "oLiRz6LKet1KIiKmyogWzdeEmYnM",
+      useTemplateId: "t7nxQWAvRwWeTOiZ_3c0JYJiOvttJFJi8Cy392MvRCo",
       province: "江苏",
       city: "扬州",
       horoscopeDate: '',
@@ -160,10 +156,8 @@ export const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {"type": "生日", "name": "萱萱", "year": "2000", "date": "09-25", isShowAge: false},
-    {"type": "节日", "name": "初次相识", "year": "2022", "date": "09-07"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "小赵", "year": "2001", "date": "01-02", isShowAge: false},
-    {"type": "节日", "name": "初次相遇", "year": "2022", "date": "09-11"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -184,8 +178,6 @@ export const USER_CONFIG = {
   CUSTOMIZED_DATE_LIST: [
         // 初次相识的日子
         {"keyword": "meet_day", date: "2022-09-07"},
-        // 初次相遇的日子
-        {"keyword": "marry_day", date: "2022-09-11"},
     // 你可以不断按格式往下增加
     // ...
   ],
